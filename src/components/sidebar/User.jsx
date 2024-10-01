@@ -1,6 +1,4 @@
 import Image from "next/image";
-import cover from "@/images/cover.jpg";
-import photo from "@/images/photo.jpg";
 import Badge from "../ui/Badge";
 import CardContent from "../ui/CardContent";
 import { DownloadIcon } from "../icons/DownloadIcon";
@@ -45,7 +43,7 @@ export default function User() {
     <div className="overflow-hidden rounded-xl bg-white">
       <div className="aspect-h-2 aspect-w-3 overflow-hidden">
         <Image
-          src={cover}
+          src='../../images/cover.jpg'
           alt="cover"
           className="object-cover object-center"
           fill
@@ -54,7 +52,7 @@ export default function User() {
         <div className="flex items-end bg-gradient-to-t from-white p-4">
           <div>
             <Image
-              src={photo}
+              src='../../images/photo.jpg'
               alt="photo"
               className="rounded-full border-2 border-white object-cover object-center shadow-sm"
               width={80}
