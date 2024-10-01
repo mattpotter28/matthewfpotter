@@ -5,9 +5,9 @@ import CardContent from "./ui/CardContent";
 import Badge from "./ui/Badge";
 import InfoItem from "./ui/InfoItem";
 
-import paypal from "@/images/paypal.jpg";
-import amazon from "@/images/amazon.jpg";
-import amex from "@/images/amex.png";
+import paypal from "../images/paypal.jpg";
+import amazon from "../images/amazon.jpg";
+import amex from "../images/amex.png";
 
 import { PinIcon } from "./icons/PinIcon";
 import { BriefcaseIcon } from "./icons/BriefcaseIcon";
